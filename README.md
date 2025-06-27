@@ -84,6 +84,7 @@ docker-compose up
 •	Go to: http://localhost:8080
 
 •	Trigger the DAG: msp_asset_sync_pipeline
+
 ---
 
 ## 📊 Architecture Diagram
