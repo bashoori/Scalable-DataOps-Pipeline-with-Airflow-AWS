@@ -1,7 +1,7 @@
 # 🚀 Scalable DataOps Pipeline with Airflow & AWS 
 
 A modular data pipeline that simulates syncing MSP asset data, fully orchestrated with Apache Airflow and integrated with AWS S3.  
-The project is designed to showcase production-grade skills relevant to a SaaS company like **ScalePad**.
+The project is designed to showcase production-grade skills relevant to a SaaS company.
 
 ---
 
