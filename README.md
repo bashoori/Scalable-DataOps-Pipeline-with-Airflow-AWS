@@ -50,7 +50,7 @@ Scalable-DataOps-Pipeline-with-Airflow-AWS/
 ---
 
 ## 📂 `.env` Configuration
-
+```
 # AWS Credentials & S3
 AWS_ACCESS_KEY_ID=your-access-key
 AWS_SECRET_ACCESS_KEY=your-secret-key
@@ -63,6 +63,7 @@ REDSHIFT_DB=...
 REDSHIFT_USER=...
 REDSHIFT_PASSWORD=...
 REDSHIFT_PORT=5439
+```
 
 🧪 How to Run Locally
 	1.	Clone the repository:
