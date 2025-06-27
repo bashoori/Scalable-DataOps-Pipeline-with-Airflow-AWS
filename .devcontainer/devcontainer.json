@@ -1,0 +1,30 @@
+{
+  "name": "Airflow-AWS-Pipeline",
+  "image": "mcr.microsoft.com/devcontainers/python:3.9",
+
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-azuretools.vscode-docker",
+        "redhat.vscode-yaml"
+      ]
+    }
+  },
+
+  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+
+  "forwardPorts": [8080],
+
+  "mounts": [
+    "source=${localWorkspaceFolder}/.env,target=/workspace/.env,type=bind,consistency=cached"
+  ],
+
+  "remoteEnv": {
+    "AIRFLOW_HOME": "/workspace"
+  }
+}
