@@ -82,11 +82,13 @@ docker-compose up
 ```
 ### 4.	Access Airflow UI
 •	Go to: http://localhost:8080
+
 •	Trigger the DAG: msp_asset_sync_pipeline
 ---
 
 ## 📊 Architecture Diagram
 (Coming Soon)
+
 Include diagram here once created (e.g., ETL → S3 → Redshift)
 
 ---
