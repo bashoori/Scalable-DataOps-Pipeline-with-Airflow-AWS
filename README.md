@@ -94,12 +94,16 @@ Include diagram here once created (e.g., ETL → S3 → Redshift)
 
 ---
 
-##💡 Future Enhancements
+## 💡 Future Enhancements
 
 🔁 Redshift integration for analytics
+
 📣 Slack/Email notifications on failure
+
 ✅ Unit testing + GitHub Actions CI
+
 🌐 Replace mock data with API integration
+
 
 
 👩‍💻 Author
