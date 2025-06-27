@@ -70,7 +70,7 @@ REDSHIFT_PORT=5439
 ```bash
 git clone https://github.com/YOUR_USERNAME/Scalable-DataOps-Pipeline-with-Airflow-AWS.git
 cd Scalable-DataOps-Pipeline-with-Airflow-AWS
-    ```
+```
 ### 2.	Configure .env
 •  Copy the example and add your AWS keys and bucket.
 
@@ -87,7 +87,7 @@ docker-compose up
 
 ## 📊 Architecture Diagram
 (Coming Soon)
-    Include diagram here once created (e.g., ETL → S3 → Redshift)
+Include diagram here once created (e.g., ETL → S3 → Redshift)
 
 ---
 
