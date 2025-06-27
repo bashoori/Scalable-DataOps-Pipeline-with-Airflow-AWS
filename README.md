@@ -1,4 +1,4 @@
-# 🚀 Scalable DataOps Pipeline with Airflow & AWS (ScalePad Inspired)
+# 🚀 Scalable DataOps Pipeline with Airflow & AWS 
 
 A modular data pipeline that simulates syncing MSP asset data, fully orchestrated with Apache Airflow and integrated with AWS S3.  
 The project is designed to showcase production-grade skills relevant to a SaaS company like **ScalePad**.
@@ -23,7 +23,7 @@ This pipeline mimics a real-world SaaS use case for Managed Service Providers (M
 ---
 
 ## 📦 Folder Structure
-'''
+```
 Scalable-DataOps-Pipeline-with-Airflow-AWS/
 ├── dags/                      # Airflow DAG definition
 ├── scripts/                   # Reusable Python modules
@@ -35,7 +35,7 @@ Scalable-DataOps-Pipeline-with-Airflow-AWS/
 ├── README.md
 ├── requirements.txt
 └── assets/                    # Diagrams or static images
-'''
+```
 
 ---
 
@@ -67,18 +67,18 @@ REDSHIFT_PORT=5439
 
 🧪 How to Run Locally
 	1.	Clone the repository:
-    '''
+    ```
     git clone https://github.com/YOUR_USERNAME/Scalable-DataOps-Pipeline-with-Airflow-AWS.git
     cd Scalable-DataOps-Pipeline-with-Airflow-AWS
-    '''
+    ```
     2.	Configure .env
 	•	Copy the example and add your AWS keys and bucket.
 	3.	Launch with Docker
-    '''
+    ```
     cd docker
     docker-compose up airflow-init
     docker-compose up
-    '''
+    ```
     	4.	Access Airflow UI
 	•	Go to: http://localhost:8080
 	•	Trigger the DAG: msp_asset_sync_pipeline
