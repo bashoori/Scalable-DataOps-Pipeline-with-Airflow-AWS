@@ -67,7 +67,7 @@ REDSHIFT_PORT=5439
 ---
 ## 🧪 How to Run Locally
 	# 1.	Clone the repository:
-    ```
+    ```bash
     git clone https://github.com/YOUR_USERNAME/Scalable-DataOps-Pipeline-with-Airflow-AWS.git
     cd Scalable-DataOps-Pipeline-with-Airflow-AWS
     ```
@@ -75,7 +75,7 @@ REDSHIFT_PORT=5439
 	•	Copy the example and add your AWS keys and bucket.
 
 	# 3.	Launch with Docker
-    ```
+    ```bash
     cd docker
     docker-compose up airflow-init
     docker-compose up
@@ -93,10 +93,10 @@ REDSHIFT_PORT=5439
 
 ##💡 Future Enhancements
 
-	•	🔁 Redshift integration for analytics
-	•	📣 Slack/Email notifications on failure
-	•	✅ Unit testing + GitHub Actions CI
-	•	🌐 Replace mock data with API integration
+	🔁 Redshift integration for analytics
+	📣 Slack/Email notifications on failure
+	✅ Unit testing + GitHub Actions CI
+	🌐 Replace mock data with API integration
 
 
 👩‍💻 Author
