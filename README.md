@@ -51,7 +51,6 @@ Scalable-DataOps-Pipeline-with-Airflow-AWS/
 
 ## 📂 `.env` Configuration
 
-```env
 # AWS Credentials & S3
 AWS_ACCESS_KEY_ID=your-access-key
 AWS_SECRET_ACCESS_KEY=your-secret-key
