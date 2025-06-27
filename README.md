@@ -67,36 +67,36 @@ REDSHIFT_PORT=5439
 ---
 ## 🧪 How to Run Locally
 ### 1.	Clone the repository:
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/Scalable-DataOps-Pipeline-with-Airflow-AWS.git
-    cd Scalable-DataOps-Pipeline-with-Airflow-AWS
+```bash
+git clone https://github.com/YOUR_USERNAME/Scalable-DataOps-Pipeline-with-Airflow-AWS.git
+cd Scalable-DataOps-Pipeline-with-Airflow-AWS
     ```
 ### 2.	Configure .env
-	•	Copy the example and add your AWS keys and bucket.
+•  Copy the example and add your AWS keys and bucket.
 
 ### 3.	Launch with Docker
-    ```bash
-    cd docker
-    docker-compose up airflow-init
-    docker-compose up
-    ```
+```bash
+cd docker
+docker-compose up airflow-init
+docker-compose up
+```
 ### 4.	Access Airflow UI
-	•	Go to: http://localhost:8080
-	•	Trigger the DAG: msp_asset_sync_pipeline
+•	Go to: http://localhost:8080
+•	Trigger the DAG: msp_asset_sync_pipeline
 ---
 
 ## 📊 Architecture Diagram
-    (Coming Soon)
-     Include diagram here once created (e.g., ETL → S3 → Redshift)
+(Coming Soon)
+    Include diagram here once created (e.g., ETL → S3 → Redshift)
 
 ---
 
 ##💡 Future Enhancements
 
-	🔁 Redshift integration for analytics
-	📣 Slack/Email notifications on failure
-	✅ Unit testing + GitHub Actions CI
-	🌐 Replace mock data with API integration
+🔁 Redshift integration for analytics
+📣 Slack/Email notifications on failure
+✅ Unit testing + GitHub Actions CI
+🌐 Replace mock data with API integration
 
 
 👩‍💻 Author
